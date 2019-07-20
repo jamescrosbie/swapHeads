@@ -1,8 +1,6 @@
 import cv2
 import numpy
 
-boarder = 0.5
-
 # load images
 img1 = cv2.imread("./photos/goodHead.jpg", cv2.IMREAD_COLOR)
 img2 = cv2.imread("./photos/badHead.jpg", cv2.IMREAD_COLOR)
